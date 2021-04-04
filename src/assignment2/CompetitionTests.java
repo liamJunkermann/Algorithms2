@@ -3,8 +3,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class CompetitionTests {
-    String valid = "/Users/liam/Documents/SFCode/Algorithms2/src/assignment2/inputAssignment2/tinyEWD.txt";
-    String invalid = "/Users/liam/Documents/SFCode/Algorithms2/src/assignment2/inputAssignment2/empty.txt";
+    String valid = "tinyEWD.txt";
+    String invalid = "empty.txt";
 
     @Test
     public void testDijkstraConstructor() {

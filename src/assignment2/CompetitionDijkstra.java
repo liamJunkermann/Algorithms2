@@ -77,7 +77,7 @@ public class CompetitionDijkstra {
     }
 
     private double[][] buildGraph() {
-        double[][] graph = new double[this.intersections][this.streets];
+        double[][] graph = new double[this.intersections][this.intersections];
         for (int i = 0; i < this.intersections; i++) {
             for (int j = 0; j < this.intersections; j++) {
                 graph[i][j] = Double.POSITIVE_INFINITY;
